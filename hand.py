@@ -6,7 +6,7 @@ start=Tk()
 def opencam():
 
 # Open Camera
-    capture = cv2.VideoCapture(0)
+    capture = cv2.VideoCapture(0) # Using 0 = laptop camera and 1  = external camera
 
     while capture.isOpened():
 
